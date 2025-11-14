@@ -1,13 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+   <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Version>1.0.0</Version>
+    <Authors>Yunus Emre Karataş</Authors>
+    <Company>Yunus Emre Karataş</Company>
+    <PackageId>FileKit.AspNetCore</PackageId>
+    <Title>FileKit.AspNetCore</Title>
+    <Description>
+      Lightweight file upload, download, delete and management kit for ASP.NET Core 8, 9 and 10 applications.
+      Provides easy integration with IFormFile, IWebHostEnvironment and built-in logging.
+    </Description>
+    <PackageTags>aspnetcore files upload download hosting environment filekit</PackageTags>
+    <RepositoryUrl>https://github.com/01YunusKaratas/FileKit</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/01YunusKaratas/FileKit</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>filekit-icon.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>false</IncludeSymbols>
+    <IncludeSource>false</IncludeSource>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entity\Models\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="filekit-icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
