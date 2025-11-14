@@ -1,4 +1,4 @@
-# 🧰 FileKit — Simple & Powerful File Management for .NET
+# FileKit — Simple & Powerful File Management for .NET
 
 **FileKit** is a lightweight, modern file management library for .NET.  
 It simplifies file operations like **upload, delete, move, download, and metadata retrieval** —  
@@ -6,19 +6,19 @@ so you never have to write “FileHelper” boilerplate code again.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ⚡️ One-line integration (`builder.Services.AddFileKit();`)
-- 🧱 `IFormFile` and stream-based upload support
-- 🧩 Fully **asynchronous (async/await)** implementation
-- 📂 Automatic folder creation
-- 🧠 `FileInfo<T>` generic model for custom metadata
-- 🧾 Built-in logging via `ILogger`
-- 🧰 Easily extendable (Azure Blob, AWS S3, Docker-ready)
+- One-line integration (`builder.Services.AddFileKit();`)
+- `IFormFile` and stream-based upload support
+- Fully **asynchronous (async/await)** implementation
+- Automatic folder creation
+- `FileInfo<T>` generic model for custom metadata
+- Built-in logging via `ILogger`
+- Easily extendable (Azure Blob, AWS S3, Docker-ready)
 
 ---
 
-## 📦 Installation
+## Installation
 
 Install from **NuGet**:
 
